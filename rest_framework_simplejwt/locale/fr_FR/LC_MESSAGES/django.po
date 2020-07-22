@@ -1,0 +1,101 @@
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <dylanpeterhayward@protonmail.com>, 2020.
+msgid ""
+msgstr ""
+"Project-Id-Version: djangorestframework_simplejwt\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-22 14:33-0300\n"
+"Last-Translator: Dylan Hayward <dylanpeterhayward@protonmail.com>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: authentication.py:76
+msgid "Authorization header must contain two space-delimited values"
+msgstr "Le header de l'autorisation doit contenir deux valeurs délimitées par des espaces"
+
+#: authentication.py:97
+msgid "Given token not valid for any token type"
+msgstr "Le token donné n'est valable pour aucun type de token"
+
+#: authentication.py:108 authentication.py:130
+msgid "Token contained no recognizable user identification"
+msgstr "Le token ne contenait aucun identifiant d'utilisateur connu"
+
+#: authentication.py:113
+msgid "User not found"
+msgstr "Utilisateur non trouvé"
+
+#: authentication.py:116
+msgid "User is inactive"
+msgstr "L'utilisateur est inactivé"
+
+#: backends.py:21
+msgid "Unrecognized algorithm type '{}'"
+msgstr "Type d'algorithme non reconnu '{}'"
+
+#: backends.py:48 exceptions.py:38 tokens.py:44
+msgid "Token is invalid or expired"
+msgstr "Le token n'est pas valable ou a expiré"
+
+#: serializers.py:44
+msgid "No active account found with the given credentials"
+msgstr "Aucun compte actif trouvé avec les références données"
+
+#: settings.py:53
+msgid ""
+"The '{}' setting has been removed. Please refer to '{}' for available "
+"settings."
+msgstr ""
+"Le paramètre '{}' a été supprimé. Veuillez vous référer à '{}' pour les paramètres"
+"disponibles."
+
+#: token_blacklist/admin.py:72
+msgid "jti"
+msgstr "jti"
+
+#: token_blacklist/admin.py:77
+msgid "user"
+msgstr "utilisateur"
+
+#: token_blacklist/admin.py:82
+msgid "created at"
+msgstr "créé à"
+
+#: token_blacklist/admin.py:87
+msgid "expires at"
+msgstr "expire à"
+
+#: token_blacklist/apps.py:7
+msgid "Token Blacklist"
+msgstr "Token Blacklist"
+
+#: tokens.py:30
+msgid "Cannot create token with no type or lifetime"
+msgstr "Impossible de créer un token sans type ni durée de vie"
+
+#: tokens.py:98
+msgid "Token has no id"
+msgstr "Le token n'a pas un id"
+
+#: tokens.py:109
+msgid "Token has no type"
+msgstr "Le token n'a pas de type"
+
+#: tokens.py:112
+msgid "Token has wrong type"
+msgstr "Le token n'est pas du bon type"
+
+#: tokens.py:149
+msgid "Token has no '{}' claim"
+msgstr "Token n'a pas de privilèges '{}'"
+
+#: tokens.py:153
+msgid "Token '{}' claim has expired"
+msgstr "Le privilège du token '{}' a expiré"
+
+#: tokens.py:192
+msgid "Token is blacklisted"
+msgstr "Token est blacklisté"
