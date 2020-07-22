@@ -57,7 +57,12 @@ setup(
     python_requires='>=3.6',
     extras_require=extras_require,
     packages=['rest_framework_simplejwt'],
-    include_package_data=True,
+    package_data={
+        'rest_framework_simplejwt': [
+            'locale/*/LC_MESSAGES/django.po',
+            'locale/*/LC_MESSAGES/django.mo',
+        ],
+    },
     zip_safe=False,
     classifiers=[
         'Development Status :: 5 - Production/Stable',
