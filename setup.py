@@ -1,8 +1,5 @@
 #!/usr/bin/env python
-from setuptools import (
-    setup,
-    find_packages,
-)
+from distutils.core import setup
 
 extras_require = {
     'test': [
@@ -59,7 +56,7 @@ setup(
     ],
     python_requires='>=3.6',
     extras_require=extras_require,
-    packages=find_packages(exclude=['tests', 'tests.*', 'licenses', 'requirements']),
+    packages=['rest_framework_simplejwt'],
     include_package_data=True,
     zip_safe=False,
     classifiers=[
